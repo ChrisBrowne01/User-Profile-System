@@ -52,15 +52,15 @@ function getUserType($loginCount) {
   }
 }
         
-        # --- 4. Simulated User Data: ---
-        // Check if the form has been submitted and get the age from the POST data.
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-          $userAge = $_POST['userAge'];
-        }
-        
-        # --- 5. Main Execution: ---
-        // This is where the functions are called to demonstrate the constant usage.
-        ?>
+# --- 4. Simulated User Data: ---
+// Check if the form has been submitted and get the age from the POST data.
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $userAge = $_POST['userAge'];
+}
+
+# --- 5. Main Execution: ---
+// This is where the functions are called to demonstrate the constant usage.
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
